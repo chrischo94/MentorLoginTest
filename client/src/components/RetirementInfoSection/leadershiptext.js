@@ -11,8 +11,6 @@ import {
   Poem,
   CenterSubtitle,
   MiniText,
-  BigTextLeft,
-  BigTextRight,
 } from "./InfoElements";
 
 const TextFormat = ({}) => {
@@ -125,13 +123,16 @@ const TextFormat = ({}) => {
         경우에는 다른 유형의 리더십이 더 적합할 수도 있습니다.
         <br />
         <br />
+        <BigTextLeft>&#x201C;</BigTextLeft>
         <Poem>
           리더는 자신의 신념과 가치에 더불어 당신이 속한 집단이 조화를 이룰 수
           있는 ‘방식’을 찾는 것이 가장 중요합니다.
         </Poem>
         <CenterSubtitle>
           - 라이프 및 경영자 코치 Fabrizio Ricciardi, ‘진정한 리더십’ 중
+          <BigTextRight>&#x201D;;</BigTextRight>
         </CenterSubtitle>
+
         <br />
       </Subtitle>
       <UnderlineHeading>위임형 (자유방임형) 리더십</UnderlineHeading>

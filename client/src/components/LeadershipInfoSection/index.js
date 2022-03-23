@@ -5,7 +5,7 @@ import { InfoContainer, InfoWrapper, TextWrapper } from "./InfoElements";
 import TextFormat from "./leadershiptext";
 
 
-const LeadershipInfoSection = ({ lightBg, id }) => {
+const LeadershipInfoSection = ({ id }) => {
   return (
     <>
       <InfoContainer id={id}>

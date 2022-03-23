@@ -119,23 +119,52 @@ export const Subtitle = styled.p`
   }
 `;
 
+export const MiniSubtitle = styled.p`
+ 
+  font-size: 25px;
+ 
+  letter-spacing: 1.8px;
+  color: #000000;
+  margin-right: auto;
+  @media screen and (max-width: 480px) {
+    font-size: 22px;
+  }
+`;
 
 
 export const Poem = styled.p`
   text-align: center;
   font-style: italic;
-
-  color: #01bf71;
 `;
 export const CenterSubtitle = styled.p`
   text-align: center;
 
-  color: #01bf71;
+
+`;
+export const BoldHeading = styled.h1`
+  padding-top: 30px;
+  font-style: bold;
+  color:#000000;
 `;
 
+export const BoldList = styled.h1`
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+  @media screen and (max-width: 480px) {
+    font-size: 22px;
+  }
+`;
 
+export const HighlightedText = styled.div`
+  display: table; /* keep the background color wrapped tight */
 
-
+    padding:5px;
+  background-color: #FAED27;
+  color: #000000;
+  font-size: 25px;
+`;
 export const IndentSubtitle = styled.p`
   margin-bottom: 35px;
   font-size: 25px;
@@ -176,3 +205,4 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
 `;
+

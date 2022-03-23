@@ -2,17 +2,16 @@ import React from "react";
 
 import { InfoContainer, InfoWrapper, TextWrapper } from "./InfoElements";
 
-import TextFormat from "./leadershiptext";
+import TextFormat from "./mentorshiptext";
 
 
-const LeadershipInfoSection = ({ lightBg, id }) => {
+const MentorshipInfoSection = ({ id }) => {
   return (
     <>
       <InfoContainer id={id}>
         <InfoWrapper>
           <TextWrapper>
             <TextFormat/>
-            
           </TextWrapper>
         </InfoWrapper>
       </InfoContainer>
@@ -20,4 +19,4 @@ const LeadershipInfoSection = ({ lightBg, id }) => {
   );
 };
 
-export default LeadershipInfoSection;
+export default MentorshipInfoSection;

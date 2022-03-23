@@ -1,6 +1,6 @@
 
 
-export const leadershipObjOne = {
+export const mentorshipObjOne = {
     id: 'leadershipinfo',
     lightBg: false,
     lightText: true,

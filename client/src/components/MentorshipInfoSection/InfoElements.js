@@ -135,12 +135,15 @@ export const MiniSubtitle = styled.p`
 export const Poem = styled.p`
   text-align: center;
   font-style: italic;
+
+  color: #01bf71;
 `;
 export const CenterSubtitle = styled.p`
   text-align: center;
 
-
+  color: #01bf71;
 `;
+
 export const BoldHeading = styled.h1`
   padding-top: 30px;
   font-style: bold;

@@ -7,8 +7,6 @@ import TextFormatExec from "./executivetext";
 import TextFormatStaff from "./stafftext";
 import TextFormatBusiness from "./businesstext";
 
-import "./businesstext.css"
-
 const CoachingInfoSection = ({ id }) => {
   return (
     <>

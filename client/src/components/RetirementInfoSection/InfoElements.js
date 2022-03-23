@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link as LinkRouter } from 'react-router-dom'
 
 export const InfoContainer = styled.div`
   color: #fff;
@@ -131,16 +132,24 @@ export const MiniSubtitle = styled.p`
   }
 `;
 
-
 export const Poem = styled.p`
   text-align: center;
   font-style: italic;
+  font-size: 25px;
+  color: #01bf71;
+  @media screen and (max-width: 480px) {
+    font-size: 22px;
+  }
 `;
 export const CenterSubtitle = styled.p`
   text-align: center;
-
-
+  font-size: 25px;
+  color: #01bf71;
+  @media screen and (max-width: 480px) {
+    font-size: 22px;
+  }
 `;
+
 export const BoldHeading = styled.h1`
   padding-top: 30px;
   font-style: bold;
@@ -159,9 +168,9 @@ export const BoldList = styled.h1`
 
 export const HighlightedText = styled.div`
   display: table; /* keep the background color wrapped tight */
-
-    padding:5px;
-  background-color: #FAED27;
+  margin: 0px auto 0px auto; /* keep the table centered */
+  padding:5px;
+  background-color: #D6D6D6;
   color: #000000;
   font-size: 25px;
 `;

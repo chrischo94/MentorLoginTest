@@ -108,7 +108,6 @@ export const IndentUnderlineHeading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-
   margin-bottom: 35px;
   font-size: 25px;
   line-height: 40px;
@@ -122,14 +121,17 @@ export const Subtitle = styled.p`
 export const Poem = styled.p`
   text-align: center;
   font-style: italic;
+  background: #d6d6d6;
+
+  color: #01bf71;
 `;
 export const CenterSubtitle = styled.p`
   text-align: center;
 
+  color: #01bf71;
 `;
 
 export const IndentSubtitle = styled.p`
-
   margin-bottom: 35px;
   font-size: 25px;
   line-height: 40px;
@@ -143,9 +145,7 @@ export const IndentSubtitle = styled.p`
   }
 `;
 
-
 export const MiniText = styled.p`
-
   margin-bottom: 35px;
   font-size: 22px;
   line-height: 30px;

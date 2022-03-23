@@ -123,16 +123,15 @@ const TextFormat = ({}) => {
         경우에는 다른 유형의 리더십이 더 적합할 수도 있습니다.
         <br />
         <br />
-        <br />
-        <br />
+    
         <Poem>
           리더는 자신의 신념과 가치에 더불어 당신이 속한 집단이 조화를 이룰 수
           있는 ‘방식’을 찾는 것이 가장 중요합니다.
         </Poem>
-        <br />
-        <br />
+
+
         <CenterSubtitle>
-          {" "}
+     
           - 라이프 및 경영자 코치 Fabrizio Ricciardi, ‘진정한 리더십’ 중{" "}
         </CenterSubtitle>
         <br />
@@ -205,12 +204,11 @@ const TextFormat = ({}) => {
           주어진 권한과 현재 상황을 생각해 보도로 합니다. 이와 달리 관리자는
           요청 받은 일을 어떻게, 언제 해낼 수 있을지에 만 더 관심을 가집니다.
         </Subtitle>
-        <br />
-        <br />
+       
         <Poem>
           Managers light a fire under people. Leaders light a fire in people.
           <br />
-          관리자는 재촉하고, 리더는 동기를 부여합니다. <br />
+          관리자는 재촉하고, 리더는 동기를 부여합니다.
           <br />
         </Poem>
         <CenterSubtitle>- Kathy Austin</CenterSubtitle>
@@ -299,9 +297,21 @@ const TextFormat = ({}) => {
         </Poem>
      
         <CenterSubtitle>- Sheryl Sandberg</CenterSubtitle>
-        <IndentUnderlineHeading></IndentUnderlineHeading>
-        <IndentSubtitle></IndentSubtitle>
+        <IndentUnderlineHeading>사기, 의욕*</IndentUnderlineHeading>
+        <IndentSubtitle>직장은 스트레스가 가득한 곳이 될 때도 있습니다. 긍정적인 태도를 가지고 의욕을 유지할 수 있도록 하는 것이 훌륭한 리더십의 기술이라고 할 수 있습니다. 환경이 긍정적일 때 팀원들도 스트레스를 잘 견디고 즐기며 일을 할 수 있습니다.
+<br/><br/>의욕을 불어넣는 방법: 팀원들과 업무와 관련 없는 주제와 일상에 대한 대화를 하고 직장 밖에서 어울려 보십시오. 그리고 서로를 알아 갈 수 있도록 직장에서도 재미있는 시간을 가져보십시오.
+</IndentSubtitle>
+        <IndentUnderlineHeading>동기</IndentUnderlineHeading>
+        <IndentSubtitle>리더는 직원들에게 금전적인 인센티브 제공 이상의 동기를 부여할 수 있어야 합니다. 자존감을 높이고, 업무 목표를 구축하고 업무에 대한 지속적인 보상 제공은 일에 대한 동기가 될 수 있습니다. 
+          <br/><br/>팀에 동기를 부여하는 방법: 팀원들과 미래의  비전을 공유하고 팀 개별로 각자의 포부를 나누어 보십시오. 주기적인 피드백 시간이나 개별 면담을 통해 진행할 수 있습니다. 
+
+        </IndentSubtitle>
       </Subtitle>
+      <Subheading>리더십 코칭의 역할</Subheading>
+      <Subtitle>앞에서 살펴본 것과 같이 강한 리더가 되기 위한 다양한 기술이 필요합니다.  누군가의 도움 없이 스스로도 개발할 수 있지만 어떤 특정한 부분에 어려움을 겪는다면 전문적인 도움이 필요한 경우가 많습니다. 
+<br/><br/>리더십 코치들은 여러분이 큰 기업에 속해 있던 자영업을 하던 여러분의 리더십 기술을 발전시키기 위한 전문적인 지식과 경험을 갖추고 있습니다. 목표를 정하고 진행 상황을 수시로 점검할 수 있도록 코치는 여러분과 협력하여 실력 향상이 되도록 책임지고 지도할 것입니다.
+<br/><br/>리더십 코치들은 여러분의 코칭 실력도 향상시켜 스스로가 팀원을 도울 수 있도록 해드릴 것 입니다. 코칭에 대한 자세한 정보를 알아보고 주변에서 리더십 코치를 찾아보세요.
+</Subtitle>
     </>
   );
 };

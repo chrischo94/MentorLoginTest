@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import HeroImage from "../../images/coachinginfo.jpg";
 
 import {
@@ -7,10 +7,6 @@ import {
   VideoBg,
   HeroContent,
   HeroH1,
-  HeroP,
-  HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
 } from "./ReuseHeroElements";
 
 const ReuseHero = () => {
@@ -22,7 +18,7 @@ const ReuseHero = () => {
         <VideoBg src={HeroImage} type="Image.jpg" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>코칭</HeroH1>
+        <HeroH1>SigniCoach</HeroH1>
 
       </HeroContent>
     </HeroContainer>

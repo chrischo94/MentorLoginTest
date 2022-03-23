@@ -80,8 +80,6 @@ export const Subheading = styled.h1`
   }
 `;
 
-
-
 export const UnderlineHeading = styled.h1`
   margin-top: 80px;
   margin-bottom: 35px;
@@ -95,8 +93,22 @@ export const UnderlineHeading = styled.h1`
   }
 `;
 
+export const IndentUnderlineHeading = styled.h1`
+  margin-top: 80px;
+  margin-bottom: 35px;
+  font-size: 25px;
+  line-height: 1.1;
+  color: #000000;
+  text-decoration: underline;
+  padding-left: 20px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 28px;
+  }
+`;
+
 export const Subtitle = styled.p`
-  /* white-space: pre; */
+
   margin-bottom: 35px;
   font-size: 25px;
   line-height: 40px;
@@ -107,7 +119,43 @@ export const Subtitle = styled.p`
     font-size: 22px;
   }
 `;
+export const Poem = styled.p`
+  text-align: center;
+  font-style: italic;
+`;
+export const CenterSubtitle = styled.p`
+  text-align: center;
 
+`;
+
+export const IndentSubtitle = styled.p`
+
+  margin-bottom: 35px;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 1.8px;
+  color: #000000;
+  margin-right: auto;
+  padding-left: 20px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 22px;
+  }
+`;
+
+
+export const MiniText = styled.p`
+
+  margin-bottom: 35px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 1.8px;
+  color: #000000;
+  margin-right: auto;
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
+`;
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;

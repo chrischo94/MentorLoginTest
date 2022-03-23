@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Heading, Subheading, Subtitle, TopLine, underlineHeading } from "./InfoElements";
+import { Heading, Subheading, Subtitle, TopLine } from "./InfoElements";
 
-const TextFormat = ({}) => {
+const TextFormatExec = ({}) => {
   return (
     <>
-      <TopLine>Career Coaching</TopLine>
+      <TopLine>커리어 코칭</TopLine>
       <Heading>커리어 코칭이란?</Heading>
       <Subtitle>
         커리어 코칭은 개인의 적성에 맞는 일을 찾을 수 있게 조언하고 여러분의
@@ -216,4 +216,4 @@ const TextFormat = ({}) => {
   );
 };
 
-export default TextFormat;
+export default TextFormatExec;

@@ -3,6 +3,7 @@ import HeroSection from "../components/ReuseHero";
 import CoachingInfoSection from "../components/CoachingInfoSection";
 import {
   coachingObjOne,
+  coachingObjTwo,
 } from "../components/CoachingInfoSection/Data";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
@@ -23,8 +24,7 @@ const CoachingInfo = () => {
       <HeroSection />
       <Services />
 
-      <CoachingInfoSection {...coachingObjOne} />
-
+      <CoachingInfoSection {...coachingObjOne}/>
       <Footer />
     </>
   );

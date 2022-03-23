@@ -1,7 +1,7 @@
 
 
-export const coachingObjOne = {
-    id: 'careercoachinginfo',
+export const leadershipObjOne = {
+    id: 'leadershipinfo',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,

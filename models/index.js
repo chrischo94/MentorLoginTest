@@ -1,3 +1,4 @@
 module.exports = {
-  Mentor: require("./mentor")
+  Mentor: require("./mentor"),
+  User: require("./User")
 };

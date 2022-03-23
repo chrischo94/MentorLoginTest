@@ -8,22 +8,22 @@ const Sidebar = ({ isOpen, toggle }) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to='about' onClick={toggle}>
-                    About
+                <SidebarLink to='CoachingInfo' onClick={toggle}>
+                    코칭
                 </SidebarLink>
                 <SidebarLink to='discover' onClick={toggle}>
-                    Discover
+                    멘토링
                 </SidebarLink>
                 <SidebarLink to='services' onClick={toggle}>
-                    Services
+                    리더십
                 </SidebarLink>
                 <SidebarLink to='signup' onClick={toggle}>
-                    Sign Up
+                    은퇴
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to='/Mentors'>
-                    Sign In
+                <SidebarRoute to='/signin'>
+                    회원가입 / 로그인
                 </SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>

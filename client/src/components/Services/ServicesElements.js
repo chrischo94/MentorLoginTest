@@ -1,13 +1,13 @@
 import styled from "styled-components";
+import { Link as LinkScroll } from 'react-scroll'
 
 export const ServicesContainer = styled.div`
-    height: 800ps;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #010606;
-
+    background: #d3d3d3;
     @media screen and (max-width: 768px) {
         height: 1100px;
     }
@@ -37,7 +37,8 @@ export const ServicesWrapper = styled.div`
 `
 
 export const ServicesCard = styled.div`
-    background: #fff;
+    background: #010606;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -47,6 +48,7 @@ export const ServicesCard = styled.div`
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
     
     &:hover {
         transform: scale(1.02);
@@ -63,7 +65,7 @@ export const ServicesIcon = styled.img`
 
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
-    color: #fff;
+    color: #010606;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {
@@ -78,5 +80,19 @@ export const ServicesH2 = styled.h2`
 
 export const ServicesP = styled.p`
     font-size: 1rem;
-    text-align: center
+    text-align: center;
+`;
+
+
+
+export const ServicesBtnLink = styled(LinkScroll)`
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 3px solid #01bf71;
+    }
 `

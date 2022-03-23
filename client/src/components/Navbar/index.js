@@ -45,55 +45,55 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="about"
+                  to="coachinginfo"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  About
+                  코칭
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="discover"
+                  to="mentoringinfo"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Discover
+                  멘토링
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="services"
+                  to="leadershipinfo"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Services
+                  리더십
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="/login"
+                  to="retirementinfo"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Sign Up
+                  은퇴
                 </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/Mentors">Sign In</NavBtnLink>
+              <NavBtnLink to="/signin">회원가입 / 로그인</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

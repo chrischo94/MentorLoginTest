@@ -1,0 +1,111 @@
+import styled from "styled-components";
+
+export const InfoContainer = styled.div`
+  color: #fff;
+  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#f9f9f9")};
+
+  @media screen and (max-width: 2000px) {
+    padding: 100px 0;
+  }
+  
+  @media screen and (max-width: 480px) {
+    justify-content: center;
+    padding-right: 45px;
+  }
+`;
+
+export const InfoWrapper = styled.div`
+  display: flex;
+  z-index: 1;
+  height: auto;
+  width: 100%;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: 50px;
+  padding: 0 24px;
+  justify-content: left;
+
+  @media screen and (max-width: 480px) {
+    margin-right: 50px;
+  }
+`;
+
+// export const InfoRow = styled.div`
+//     display: grid;
+//     grid-auto-columns: minmax(auto, 1fr);
+//     align-items: left;
+//     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+
+//     @media screen and (max-width: 768px) {
+//         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
+//     }
+
+// `;
+
+export const TextWrapper = styled.div`
+  max-width: auto;
+  padding-top: 0;
+  padding-bottom: 60px;
+`;
+
+export const TopLine = styled.p`
+    color: #01bf71;
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin-bottom: 50px;
+`;
+
+export const Heading = styled.h1`
+  margin-top: 80px;
+  margin-bottom: 35px;
+  font-size: 35px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #000000;
+  @media screen and (max-width: 480px) {
+    font-size: 28px;
+  }
+`;
+export const Subheading = styled.h1`
+  margin-top: 80px;
+  margin-bottom: 35px;
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #000000;
+  @media screen and (max-width: 480px) {
+    font-size: 22px;
+  }
+`;
+
+
+export const Subtitle = styled.p`
+  /* white-space: pre; */
+  margin-bottom: 35px;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 1.8px;
+  color: #000000;
+  margin-right: auto;
+  @media screen and (max-width: 480px) {
+    font-size: 22px;
+  }
+`;
+
+export const BtnWrap = styled.div`
+  display: flex;
+  justify-content: flex-start;
+`;
+
+export const ImgWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+`;
+
+export const Img = styled.img`
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+`;

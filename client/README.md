@@ -1694,7 +1694,7 @@ For environments using [Node](https://nodejs.org/), the easiest way to handle th
 
 ```sh
 npm install -g serve
-serve -s build
+
 ```
 
 The last command shown above will serve your static site on the port **5000**. Like many of [serve](https://github.com/zeit/serve)’s internal settings, the port can be adjusted using the `-p` or `--port` flags.

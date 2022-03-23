@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import HeroSection from "../components/ReuseHero";
-import InfoSection from "../components/InfoSection";
+import RetirementInfoSection from "../components/RetirementInfoSection";
 import {
-  homeObjOne,
-  homeObjTwo,
-  homeObjThree,
-  homeObjFour,
-} from "../components/InfoSection/Data";
+  retirementObjOne,
+} from "../components/RetirementInfoSection/Data";
 import Navbar from "../components/Navbar";
-import Services from "../components/Services";
+
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 
@@ -24,11 +21,12 @@ const RetirementInfo = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-     
-      <Services />
+
+      <RetirementInfoSection {...retirementObjOne}/>
       <Footer />
     </>
   );
 };
 
 export default RetirementInfo;
+

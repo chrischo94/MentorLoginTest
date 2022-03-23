@@ -22,8 +22,8 @@ const CoachingInfoSection = ({ id }) => {
             </div>
             <div className="executivecoachinginfo" />
             <br/><br/><br/><br/>
-            <div className="staffcoachinginfo" />
             <TextFormatExec />
+            <div className="staffcoachinginfo" />
             <br/><br/><br/><br/>
             <TextFormatStaff />
           </TextWrapper>

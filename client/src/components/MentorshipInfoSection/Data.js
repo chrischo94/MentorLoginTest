@@ -1,7 +1,7 @@
 
 
 export const mentorshipObjOne = {
-    id: 'leadershipinfo',
+    id: 'mentorshipinfo',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,

@@ -19,8 +19,8 @@ import {
 const TextFormat = ({}) => {
   return (
     <>
-      <TopLine>Mentorship</TopLine>
-      <Subheading>멘토링</Subheading>
+      <TopLine>Retirement</TopLine>
+      <Subheading>은퇴</Subheading>
       <Subtitle>
         여러분이 현재 커리어에 갈피를 잡지 못하고 실질적인 가이드를 받기
         희망한다면, 멘토링을 하면서 도움을 얻을 수 있습니다. 여러분의 커리어를

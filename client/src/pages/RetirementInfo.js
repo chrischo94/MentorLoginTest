@@ -4,8 +4,7 @@ import RetirementInfoSection from "../components/RetirementInfoSection";
 import {
   retirementObjOne,
 } from "../components/RetirementInfoSection/Data";
-import Navbar from "../components/Navbar";
-
+import Navbar from "../components/NavbarRouter";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 

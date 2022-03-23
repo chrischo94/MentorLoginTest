@@ -3,9 +3,9 @@ import HeroSection from "../components/ReuseHero";
 import CoachingInfoSection from "../components/CoachingInfoSection";
 import {
   coachingObjOne,
-  coachingObjTwo,
+
 } from "../components/CoachingInfoSection/Data";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarRouter";
 import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";

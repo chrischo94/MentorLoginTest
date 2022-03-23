@@ -36,9 +36,9 @@ function Mentors() {
 
   function handleFormSubmit(event) {
     event.preventDefault();
-    if (formObject.nameM && formObject.location) {
+    if (formObject.userName && formObject.location) {
       API.saveMentor({
-        nameM: formObject.nameM,
+        userName: formObject.userName,
         location: formObject.location,
         
       })
@@ -48,32 +48,43 @@ function Mentors() {
   };
 
     return (
-      <Container fluid>
+      <Container flex>
         <Row>
-          <Col size="md-6">
+          <Col size="md-12" >
             <Jumbotron>
-              <h1>What Kind of Mentor Would You Like</h1>
+              <h1>Let Us Get To Know You!</h1>
             </Jumbotron>
             <form>
               <Input
                 onChange={handleInputChange}
-                name="nameM"
-                placeholder="nameM (required)"
+                name="userName"
+                placeholder="Name (required)"
               />
               <Input
                 onChange={handleInputChange}
                 name="location"
-                placeholder="Location (required)"
+                placeholder="Which do you prefer? In-Person, Remote, or Both (required)"
+              />
+              <Input
+                onChange={handleInputChange}
+                name="work"
+                placeholder="What field of work are you in? (required)"
+              />
+           
+               <Input
+                onChange={handleInputChange}
+                name="needs"
+                placeholder="What type of service were you looking for? (required)"
               />
               <FormBtn
-                disabled={!(formObject.nameM && formObject.location)}
+                disabled={!(formObject.userName && formObject.location && formObject.work && formObject.needs)}
                 onClick={handleFormSubmit}
               >
                 Submit
               </FormBtn>
             </form>
           </Col>
-          <Col size="md-6 sm-12">
+          {/* <Col size="md-6 sm-12">
             <Jumbotron>
               <h1>Chosen Mentors</h1>
             </Jumbotron>
@@ -83,7 +94,7 @@ function Mentors() {
                   <ListItem key={mentor._id}>
                     <Link to={"/mentors/" + mentor._id}>
                       <strong>
-                        {mentor.nameM} by {mentor.location}
+                        {mentor.userName} by {mentor.location}
                       </strong>
                     </Link>
                     <DeleteBtn onClick={() => deleteMentor(mentor._id)} />
@@ -93,7 +104,7 @@ function Mentors() {
             ) : (
               <h3>No Results to Display</h3>
             )}
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     );

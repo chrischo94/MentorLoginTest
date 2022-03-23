@@ -5,8 +5,7 @@ import {
   mentorshipObjOne,
   
 } from "../components/MentorshipInfoSection/Data";
-import Navbar from "../components/Navbar";
-import Services from "../components/Services";
+import Navbar from "../components/NavbarRouter";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 

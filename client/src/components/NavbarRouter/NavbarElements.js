@@ -42,6 +42,16 @@ export const NavLogo = styled(LinkRouter)`
     text-decoration: none !important;
 `;
 
+export const NavRouterLink = styled(LinkRouter)`
+    color: #fff;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    text-decoration: none !important;
+`;
 
 export const MobileIcon = styled.div`
     display: none;
@@ -103,16 +113,6 @@ export const NavBtn = styled.nav`
     }
 `;
 
-export const NavRouterLink = styled(LinkRouter)`
-    color: #fff;
-    justify-self: flex-start;
-    cursor: pointer;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    margin-left: 24px;
-    text-decoration: none !important;
-`;
 export const NavBtnLink = styled(LinkRouter)`
     border-radius: 50px;
     background: #01bf71;

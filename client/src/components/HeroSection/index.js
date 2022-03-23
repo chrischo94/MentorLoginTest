@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import HeroImage from "../../images/homepage.jpg";
-import { Button } from "../ButtonElements";
+import { Button, ButtonRoute } from "../ButtonElements";
 import {
   HeroContainer,
   HeroBg,
@@ -26,20 +26,20 @@ const HeroSection = () => {
         <VideoBg src={HeroImage} type="Image.jpg" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Find a Mentor Today!</HeroH1>
+        <HeroH1>오늘 부터 멘토 찼아 보새요!</HeroH1>
         <HeroP>
-          Sign up and recieve $100 in credit towards your next payment
+          몇 질문만 대답하시면, 멘토랑 메칭 해드리겠습니다
         </HeroP>
         <HeroBtnWrapper>
-          <Button
-            to="signup"
+          <ButtonRoute
+            to="/Mentors"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
             dark="true"
           >
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+            시작 {hover ? <ArrowForward /> : <ArrowRight />}
+          </ButtonRoute>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

@@ -12,6 +12,7 @@ import {
   NavBtn,
   NavRouterLink,
 } from "./NavbarElements";
+
 import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ toggle }) => {
@@ -93,7 +94,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">회원가입 / 로그인</NavBtnLink>
+              <NavRouterLink to="/LoginScreen">회원가입 / 로그인</NavRouterLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

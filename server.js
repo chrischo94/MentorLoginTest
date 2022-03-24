@@ -21,8 +21,8 @@ if (process.env.NODE_ENV === "production") {
 
 
 // //routes
+
 app.use(routes);
-// app.use("/api/auth", require("./routes/api/auth"));
 
 //Error Hangler (should be last piece of middleware)
 app.use(errorHandler);

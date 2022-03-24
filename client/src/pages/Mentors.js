@@ -84,7 +84,7 @@ function Mentors() {
               </FormBtn>
             </form>
           </Col>
-          {/* <Col size="md-6 sm-12">
+          <Col size="md-6 sm-12">
             <Jumbotron>
               <h1>Chosen Mentors</h1>
             </Jumbotron>
@@ -104,7 +104,7 @@ function Mentors() {
             ) : (
               <h3>No Results to Display</h3>
             )}
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     );

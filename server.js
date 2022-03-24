@@ -5,7 +5,7 @@ const connectDB = require("./config/db");
 const routes = require("./routes");
 const PORT = process.env.PORT || 3001;
 const errorHandler = require('./middleware/error')
-
+const cors = require('cors');
 //connect DB
 connectDB();
 
@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === "production") {
 
 
 // //routes
-
+app.use(cors());
 app.use(routes);
 
 //Error Hangler (should be last piece of middleware)
